@@ -106,6 +106,8 @@ function App() {
           isLoading: false,
           autoClose: 4000,
         });
+        console.log("BASE_URL:", BASE_URL);
+
         return;
       }
 
