@@ -28,7 +28,7 @@ export const TableRecords = ({ payments }) => {
           placeholder="Search here"
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
-          className="border p-2 rounded w-full sm:w-2/3 text-sm sm:text-base"
+          className="border p-2  border-green-600 rounded w-full sm:w-2/3 text-sm sm:text-base"
         />
         <button
           onClick={handleSearch}
